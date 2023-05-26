@@ -1100,3 +1100,15 @@
   body ::-webkit-calendar-picker-indicator {
     filter: invert(50%);
   }
+
+  body .flexbox-column{
+    display: flex;
+    flex-direction: column;
+    gap: 6px 4px;
+  }
+  
+  body .flexbox-row{
+    display: flex;
+    flex-direction: row;
+    gap: 6px 4px;
+  }
